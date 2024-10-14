@@ -1,0 +1,9 @@
+@MathApi_HostAddress = http://localhost:5215
+
+### Calculate Average
+POST {{MathApi_HostAddress}}/api/math/average
+Content-Type: application/json
+
+[
+  1, 2, 3, 4, 5
+]
